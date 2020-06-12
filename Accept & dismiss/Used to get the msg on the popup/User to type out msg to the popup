@@ -1,17 +1,17 @@
 	WebElement alertbox1 =driver.findElement(By.xpath("//button[@onclick='normalAlert()']"));
-//		alertbox1.click();
-//		Alert alert1 = driver.switchTo().alert();
-//		alert1.accept();
-//		String text1 =	alert1.getText();
-//		System.out.println(text1);
+		alertbox1.click();
+		Alert alert1 = driver.switchTo().alert();
+		alert1.accept();
+		String text1 =	alert1.getText();
+		System.out.println(text1);
       
-//		WebElement alertbox2 =driver.findElement(By.xpath("//button[@onclick='confirmAlert()']"));
-//		alertbox2.click();
-//		Thread.sleep(8000);
-//		Alert alert2 = driver.switchTo().alert();
-//		alert2.accept();
-//		String text2 =	alert2.getText();
-//		System.out.println(text2);
+		WebElement alertbox2 =driver.findElement(By.xpath("//button[@onclick='confirmAlert()']"));
+		alertbox2.click();
+		Thread.sleep(8000);
+		Alert alert2 = driver.switchTo().alert();
+		alert2.accept();
+		String text2 =	alert2.getText();
+		System.out.println(text2);
 
 		WebElement alertbox3 =driver.findElement(By.xpath("//button[@onclick='confirmPrompt()']"));
 		alertbox3.click();
